@@ -1,5 +1,5 @@
 // "Authors" table list of columns and their properties.
-const table1Columns = [
+export const table1Columns = [
   {
     title: 'AUTHOR',
     dataIndex: 'author',
@@ -28,7 +28,7 @@ const table1Columns = [
 ];
 
 // "Authors" table list of rows and their properties.
-const table1Data = [
+export const table1Data = [
   {
     key: '1',
     author: {
@@ -116,7 +116,7 @@ const table1Data = [
 ];
 
 // "Projects" table list of columns and their properties.
-const table2Columns = [
+export const table2Columns = [
   {
     title: 'COMPANIES',
     dataIndex: 'company',
@@ -146,7 +146,7 @@ const table2Columns = [
 ];
 
 // "Projects" table list of rows and their properties.
-const table2Data = [
+export const table2Data = [
   {
     key: '1',
     company: {
