@@ -1,3 +1,36 @@
+# Jitta Wealth Testing
+
+This is the project that jitta give to me (Thanawat pinya [Ohm]) for test the front-end skill. This project required to use the Turborepo, Next.js, Typescript and Tailwind css. The test is write the tailwind with the same Antd css style [here](https://demos.creative-tim.com/muse-vue-ant-design-dashboard/?_ga=2.102627458.2090326741.1635060169-991846248.1626952001#/tables), [example github](https://github.com/creativetimofficial/muse-vue-ant-design-dashboard) focusing only the table.
+
+### Setup Environment
+- turbo: latest
+- node: 18.16.0
+- next: 13.4.1
+- react: 18.2.0
+- tailwindcss: 3.3.2
+
+### How to start locally
+Run follow command to start the local
+```sh
+# clone the project
+git clone https://github.com/thanawatpinya/jitta-wealth-testing.git
+# get into the project
+cd jitta-wealth-testing
+# change the node version using nvm command (I create nvmrc to easy to change node version)
+nvm use
+# Install the package.json
+npm i
+# Start the development
+npm run dev
+```
+The local port is 3000.
+
+### Note
+I'm a newbie with the tailwind framework. I feel like learning all new CSS styles because I am unfamiliar with them. So, Maybe I can't break down the component not good enough. I didn't know how should we collect the class to be in order. Normally I using the styled-component and breakdown the component with atomic design. It scaleble by using the [bit.dev](https://bit.dev/). It's powerful if using with atomic design [Follow This Article](https://blog.bitsrc.io/implementing-atomic-design-with-react-and-bit-6eebfa325ecb). However, I want to break down the component with the tailwindcss better.
+
+***
+
+
 # Turborepo starter
 
 This is an official starter Turborepo.
