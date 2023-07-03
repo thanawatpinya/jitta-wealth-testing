@@ -26,7 +26,7 @@ npm run dev
 The local port is 3000.
 
 ### Note
-I'm a newbie with the tailwind framework. I feel like learning all new CSS styles because I am unfamiliar with them. So, Maybe I can't break down the component not good enough. I didn't know how should we collect the class to be in order. Normally I using the styled-component and breakdown the component with atomic design. It scaleble by using the [bit.dev](https://bit.dev/). It's powerful if using with atomic design [Follow This Article](https://blog.bitsrc.io/implementing-atomic-design-with-react-and-bit-6eebfa325ecb). However, I want to break down the component with the tailwindcss better.
+I'm a newbie with the tailwind and Next.js framework. I feel like learning all new CSS styles because I am unfamiliar with them. So, Maybe I can't break down the component not good enough. I didn't know how should we collect the class to be in order. Normally I using the styled-component and breakdown the component with atomic design. It scaleble by using the [bit.dev](https://bit.dev/). It's powerful if using with atomic design [Follow This Article](https://blog.bitsrc.io/implementing-atomic-design-with-react-and-bit-6eebfa325ecb). However, I want to break down the component with the tailwindcss better.
 
 For the performance on lighthouse, I adding the manifest.json file to improve the performance a bit. But the time not enough to do the service worker to improve performance more. My local lighthouse test, The performance score is 86, the accessibility score is 94, the best practice score is 100 and the SEO score is 78.
 
